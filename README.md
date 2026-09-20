@@ -9,17 +9,19 @@ The project you build: **Azure SQL Database → Azure Data Factory → ADLS Gen2
 | # | Session | What it covers | Materials |
 | --- | --- | --- | --- |
 | 01 | Cloud Fundamentals | Cloud concepts, benefits and drawbacks, on-prem vs cloud, and creating your free Azure account | [Study guide](session-01-cloud-fundamentals/study-guide.md) · [Slides](session-01-cloud-fundamentals/slides.md) |
-| 02 | Storage Account and ADF | Blob and ADLS Gen2 accounts, resource groups, subscriptions, regions, OLTP vs OLAP, and creating Azure Data Factory | [Study guide](session-02-storage-account-and-adf/study-guide.md) · [Slides](session-02-storage-account-and-adf/slides.md) |
-| 03 | ADF Implementation | Linked services, datasets, the Copy activity, Azure SQL Database, and copying to CSV and JSON | [Study guide](session-03-adf-implementation/study-guide.md) · [Slides](session-03-adf-implementation/slides.md) |
-| 04 | ADF Pipelines | Parameters, queries, Parquet, dynamic folders, and copying many tables with one pipeline | [Study guide](session-04-adf-pipelines/study-guide.md) · [Slides](session-04-adf-pipelines/slides.md) |
-| 05 | Databricks | Big data, Spark vs PySpark vs Databricks, reading a CSV, creating a table, and Genie | [Study guide](session-05-databricks/study-guide.md) · [Slides](session-05-databricks/slides.md) |
-| 06 | Resume and How to Crack a Data Engineer Interview | Resume, portfolio, interview questions, design and behavioural answers | [Study guide](session-06-resume-and-interview/study-guide.md) · [Slides](session-06-resume-and-interview/slides.md) |
-| 07 | What Next? | DP-750 certification, job readiness and next steps | [Study guide](session-07-what-next/study-guide.md) · [Slides](session-07-what-next/slides.md) |
+| 02 | Storage Account and ADF | Blob and ADLS Gen2 accounts, resource groups, subscriptions, regions, OLTP vs OLAP, and creating Azure Data Factory | Coming soon |
+| 03 | ADF Implementation | Linked services, datasets, the Copy activity, Azure SQL Database, and copying to CSV and JSON | Coming soon |
+| 04 | ADF Pipelines | Parameters, queries, Parquet, dynamic folders, and copying many tables with one pipeline | Coming soon |
+| 05 | Databricks | Big data, Spark vs PySpark vs Databricks, reading a CSV, creating a table, and Genie | Coming soon |
+| 06 | Resume and How to Crack a Data Engineer Interview | Resume, portfolio, interview questions, design and behavioural answers | Coming soon |
+| 07 | What Next? | DP-750 certification, job readiness and next steps | Coming soon |
+
+New sessions are added after each live session.
 
 Also in this repository:
 
 - [Welcome and expectations](welcome-and-expectations.md): how the bootcamp runs and what is expected of you.
-- [Data engineer resume template](templates/data-engineer-resume-template.md) (also as [Word](templates/data-engineer-resume-template.docx)).
+- Data engineer resume template: coming soon.
 
 ## How to use these materials
 
@@ -39,6 +41,18 @@ Also in this repository:
 - Delete Azure resources when you have finished with them, to avoid charges.
 - Menus, prices and exam details change over time. Check the official Microsoft and Databricks documentation.
 
+## Author
+
+**UWAYO Jacques**, data engineer and instructor of the Azure Data Engineering Bootcamp.
+[LinkedIn](https://www.linkedin.com/in/uwayo/)
+
 ## License
 
-Add your license here.
+The course materials in this repository (study guides, slides and templates) are licensed under
+[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You may share and adapt them for non-commercial purposes if you give appropriate credit to
+**UWAYO Jacques, Azure Data Engineering Bootcamp** ([LinkedIn](https://www.linkedin.com/in/uwayo/))
+and indicate any changes. For commercial use, please contact the author through LinkedIn.
+
+Microsoft, Azure, Databricks and other product names belong to their owners.
