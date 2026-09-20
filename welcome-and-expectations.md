@@ -4,6 +4,10 @@
 
 Welcome to the **Azure Data Engineering Bootcamp**, a free, live, online program that takes you from cloud basics to a working end-to-end data project. Here is what to expect and what we expect from you.
 
+## About your instructor
+
+Ir. Jacques Uwayo is a senior data engineer from Kigali with 20 years in IT. He works with Databricks, Microsoft Fabric, Azure Data Factory and MuleSoft, and teaches data engineering. He holds DP-700, Databricks Data Engineer Associate and MuleSoft certifications. LinkedIn: linkedin.com/in/uwayo
+
 ## What you will learn
 
 | Session | Topic | You will be able to |

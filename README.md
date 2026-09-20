@@ -43,7 +43,7 @@ Also in this repository:
 
 ## Author
 
-**UWAYO Jacques**, data engineer and instructor of the Azure Data Engineering Bootcamp.
+Ir. Jacques Uwayo is a senior data engineer from Kigali with 20 years in IT. He works with Databricks, Microsoft Fabric, Azure Data Factory and MuleSoft, and teaches data engineering. He holds DP-700, Databricks Data Engineer Associate and MuleSoft certifications.
 [LinkedIn](https://www.linkedin.com/in/uwayo/)
 
 ## License
