@@ -1,5 +1,7 @@
 # Session 2: Storage Account and ADF: Slides
 
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)
+
 Each slide as an image, with its text underneath. See [study-guide.md](study-guide.md) for the full explanation, steps and practice. You can also [download the slides as PDF](slides.pdf).
 
 ---
@@ -857,3 +859,5 @@ Each slide as an image, with its text underneath. See [study-guide.md](study-gui
 - Session 02 – Storage Account & Azure Data Factory  ·  Student Notes
 
 ---
+
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)

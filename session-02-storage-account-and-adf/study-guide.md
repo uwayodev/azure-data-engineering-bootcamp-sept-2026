@@ -1,5 +1,7 @@
 # Session 2: Storage Account and ADF (Study guide)
 
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)
+
 **What you will learn:** You will understand what an Azure Storage Account is and the difference between Blob storage and Azure Data Lake Storage Gen2 (ADLS Gen2). You will learn how Azure organises resources with subscriptions, resource groups and regions, why companies separate OLTP and OLAP systems, and what an end-to-end data engineering architecture looks like. You will create an ADLS Gen2 account, a Blob storage account and an Azure Data Factory, and take a tour of ADF Studio.
 
 **Before you start:** Your free Azure account from Session 1, Google Chrome on a laptop or desktop, and a small test file (a CSV file is ideal).
@@ -520,3 +522,5 @@ Session 3 is **ADF Implementation**: the ADF end-to-end flow, linked services, d
 | Integration runtime | The compute that runs ADF activities |
 | Trigger | When a pipeline runs: schedule, tumbling window or event |
 | Dev / UAT / Prod | Development, User Acceptance Testing and Production environments |
+
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)

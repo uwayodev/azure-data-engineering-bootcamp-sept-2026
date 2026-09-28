@@ -1,5 +1,7 @@
 # Session 1: Cloud Fundamentals (Study guide)
 
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)
+
 **What you will learn:** You will understand what cloud computing is, its main benefits and drawbacks, and how it compares with on-premises. You will also create your free Azure account, ready for the hands-on sessions.
 
 **Before you start:** A laptop or desktop with Google Chrome, your phone for a verification code, and an email address you will keep using.
@@ -320,3 +322,5 @@ You do not create any other resources in this session; that starts in Session 2.
 | Agility | How quickly you can create, change and remove resources |
 | CapEx / OpEx | Upfront capital spending / ongoing operating spending |
 | Vendor lock-in | Difficulty moving away from one provider |
+
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)
