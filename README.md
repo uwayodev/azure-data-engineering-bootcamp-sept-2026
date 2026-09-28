@@ -9,7 +9,7 @@ The project you build: **Azure SQL Database → Azure Data Factory → ADLS Gen2
 | # | Session | What it covers | Materials |
 | --- | --- | --- | --- |
 | 01 | Cloud Fundamentals | Cloud concepts, benefits and drawbacks, on-prem vs cloud, and creating your free Azure account | [Study guide](session-01-cloud-fundamentals/study-guide.md) · [Slides](session-01-cloud-fundamentals/slides.md) |
-| 02 | Storage Account and ADF | Blob and ADLS Gen2 accounts, resource groups, subscriptions, regions, OLTP vs OLAP, and creating Azure Data Factory | Coming soon |
+| 02 | Storage Account and ADF | Blob and ADLS Gen2 accounts, resource groups, subscriptions, regions, OLTP vs OLAP, and creating Azure Data Factory | [Study guide](session-02-storage-account-and-adf/study-guide.md) · [Slides](session-02-storage-account-and-adf/slides.md) |
 | 03 | ADF Implementation | Linked services, datasets, the Copy activity, Azure SQL Database, and copying to CSV and JSON | Coming soon |
 | 04 | ADF Pipelines | Parameters, queries, Parquet, dynamic folders, and copying many tables with one pipeline | Coming soon |
 | 05 | Databricks | Big data, Spark vs PySpark vs Databricks, reading a CSV, creating a table, and Genie | Coming soon |
