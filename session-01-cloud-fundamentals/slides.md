@@ -1,5 +1,7 @@
 # Session 1: Cloud Fundamentals: Slides
 
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)
+
 Each slide as an image, with its text underneath. See [study-guide.md](study-guide.md) for the full explanation, steps and practice.
 
 ---
@@ -259,3 +261,5 @@ Each slide as an image, with its text underneath. See [study-guide.md](study-gui
 - Learn  ·  Build  ·  Grow
 
 ---
+
+<a href="https://www.linkedin.com/in/uwayo/"><img src="../assets/linkedin.png" alt="LinkedIn" height="16"></a> **Prepared by Ir. UWAYO Jacques** · [Follow me on LinkedIn](https://www.linkedin.com/in/uwayo/)
