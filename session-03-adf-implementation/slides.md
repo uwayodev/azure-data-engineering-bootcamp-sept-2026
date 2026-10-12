@@ -770,7 +770,7 @@ Each slide as an image, with its text underneath. See [study-guide.md](study-gui
 
 ![Slide 75](slides/slide-75.jpg)
 
-- Requirement: copy the SalesLT.Product table into ADLS Gen2 as a JSON file. • Linked services: 0 new - reuse SQL_DB_LS and ADLS_LS (same database, same storage). • Datasets: 2 new - Product_SQL_DS (table SalesLT.Product) and JSON_ADLS_DS (JSON format in landing). • Activities: 1 Copy data activity. • Pipelines: 1 new pipeline (Ingest_product_data). Key idea: linked services are reusable connections; datasets are specific to a table/file and format.
+- Requirement: copy the SalesLT.Product table into ADLS Gen2 as a JSON file. • Linked services: 0 new - reuse SQL_DB_LS and ADLS_LS (same database, same storage). • Datasets: 2 new - Product_SQL_DS (table SalesLT.Product) and ADLS_JSON_DS (JSON format in landing). • Activities: 1 Copy data activity. • Pipelines: 1 new pipeline (Ingest_product_table_to_adls). Key idea: linked services are reusable connections; datasets are specific to a table/file and format.
 
 ---
 
@@ -790,7 +790,7 @@ Each slide as an image, with its text underneath. See [study-guide.md](study-gui
 ![Slide 77](slides/slide-77.jpg)
 
 - + Dataset → ADLS Gen2 → format JSON
-- Name: JSON_ADLS_DS
+- Name: ADLS_JSON_DS
 - Linked service: ADLS_LS (reused)
 
 ---
@@ -809,19 +809,17 @@ Each slide as an image, with its text underneath. See [study-guide.md](study-gui
 
 ![Slide 79](slides/slide-79.jpg)
 
-- New pipeline: Ingest_product_data
+- New pipeline: Ingest_product_table_to_adls
 - Copy data activity: Product sql table to ADLS JSON
-
-> **Tip:** Check spelling in names – “Ingets_product_data” in the live demo should be Ingest_product_data.
 
 ---
 
-## Slide 80: Source = Product_SQL_DS, Sink = JSON_ADLS_DS
+## Slide 80: Source = Product_SQL_DS, Sink = ADLS_JSON_DS
 
 ![Slide 80](slides/slide-80.jpg)
 
 - Source tab: Product_SQL_DS, Use query = Table
-- Sink tab: JSON_ADLS_DS
+- Sink tab: ADLS_JSON_DS
 
 ---
 

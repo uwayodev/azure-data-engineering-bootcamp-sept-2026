@@ -21,8 +21,8 @@
 > | SQL database | `sqldb-session03` | Unique on its server |
 > | SQL admin login | `sqladmin` | Cannot be `admin`, `sa` or `root` |
 > | Linked services | `SQL_DB_LS`, `ADLS_LS` | Letters, numbers and underscores |
-> | Datasets | `Customer_SQL_DB_DS`, `ADLS_CSV_DS`, `Product_SQL_DS`, `JSON_ADLS_DS` | Letters, numbers and underscores (no hyphens) |
-> | Pipelines | `Ingest_customer_table_to_adls`, `Ingest_product_data` | Letters, numbers and underscores |
+> | Datasets | `Customer_SQL_DB_DS`, `ADLS_CSV_DS`, `Product_SQL_DS`, `ADLS_JSON_DS` | Letters, numbers and underscores (no hyphens) |
+> | Pipelines | `Ingest_customer_table_to_adls`, `Ingest_product_table_to_adls` | Letters, numbers and underscores |
 
 ## Recap of Session 2
 
@@ -440,9 +440,9 @@ The requirement: copy `SalesLT.Product` into the `landing` container as **JSON**
 Try it on your own first, then check these steps.
 
 1. **Source dataset:** **+** > **Dataset** > **Azure SQL Database**. **Name:** `Product_SQL_DS`. **Linked service:** `SQL_DB_LS`. **Table:** `SalesLT.Product`. **Import schema:** **From connection/store**.
-2. **Sink dataset:** **+** > **Dataset** > **Azure Data Lake Storage Gen2** > format **JSON**. **Name:** `JSON_ADLS_DS`. **Linked service:** `ADLS_LS`. **File path:** `landing`.
-3. **Pipeline:** **+** > **Pipeline**. **Name:** `Ingest_product_data`.
-4. **Copy activity:** drag **Copy data** onto the canvas. **Name:** `Product sql table to ADLS JSON`. **Source:** `Product_SQL_DS`. **Sink:** `JSON_ADLS_DS`.
+2. **Sink dataset:** **+** > **Dataset** > **Azure Data Lake Storage Gen2** > format **JSON**. **Name:** `ADLS_JSON_DS`. **Linked service:** `ADLS_LS`. **File path:** `landing`.
+3. **Pipeline:** **+** > **Pipeline**. **Name:** `Ingest_product_table_to_adls`.
+4. **Copy activity:** drag **Copy data** onto the canvas. **Name:** `Product sql table to ADLS JSON`. **Source:** `Product_SQL_DS`. **Sink:** `ADLS_JSON_DS`.
 5. **Debug**, and wait for **Succeeded**.
 6. **Validate:** `SELECT COUNT(*) FROM [SalesLT].[Product];` returns **295**, and `landing` contains `SalesLT.Product.json`.
 7. **Publish all**.
@@ -451,7 +451,7 @@ Try it on your own first, then check these steps.
 
 > **Tip**
 >
-> Check spelling in names. The live demo used `Ingets_product_data` by mistake. Names appear in monitoring and alerts, so a typo stays with you.
+> Keep one naming pattern for every lab: `Customer_SQL_DB_DS` / `ADLS_CSV_DS` / `Ingest_customer_table_to_adls` in Lab 1 become `Product_SQL_DS` / `ADLS_JSON_DS` / `Ingest_product_table_to_adls` in Lab 2. Names appear in monitoring and alerts, so consistent names make support easier.
 
 ### Why is the JSON file bigger?
 
