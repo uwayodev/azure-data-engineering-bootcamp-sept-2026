@@ -6,7 +6,7 @@ Welcome to the **Azure Data Engineering Bootcamp**, a free, live, online program
 
 ## About your instructor
 
-Ir. Jacques Uwayo is a senior data engineer from Kigali with 20 years in IT. He works with Databricks, Microsoft Fabric, Azure Data Factory and MuleSoft, and teaches data engineering. He holds DP-700, Databricks Data Engineer Associate and MuleSoft certifications. LinkedIn: linkedin.com/in/uwayo
+Ir. Jacques Uwayo is a senior data engineer from Kigali with 20 years in IT. He works with Databricks, Microsoft Fabric, Azure Data Factory and MuleSoft, and teaches data engineering. He holds DP-700, Databricks Certified Data Engineer Associate, Databricks Certified Data Engineer Professional and MuleSoft certifications. LinkedIn: linkedin.com/in/uwayo
 
 ## What you will learn
 
