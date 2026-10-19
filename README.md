@@ -11,8 +11,8 @@ The project you build: **Azure SQL Database → Azure Data Factory → ADLS Gen2
 | 01 | Cloud Fundamentals | Cloud concepts, benefits and drawbacks, on-prem vs cloud, and creating your free Azure account | [Study guide](session-01-cloud-fundamentals/study-guide.md) · [Slides](session-01-cloud-fundamentals/slides.md) |
 | 02 | Storage Account and ADF | Blob and ADLS Gen2 accounts, resource groups, subscriptions, regions, OLTP vs OLAP, and creating Azure Data Factory | [Study guide](session-02-storage-account-and-adf/study-guide.md) · [Slides](session-02-storage-account-and-adf/slides.md) |
 | 03 | ADF Implementation | Linked services, datasets, the Copy activity, Azure SQL Database, and copying to CSV and JSON | [Study guide](session-03-adf-implementation/study-guide.md) · [Slides](session-03-adf-implementation/slides.md) |
-| 04 | ADF Pipelines | Parameters, queries, Parquet, dynamic folders, and copying many tables with one pipeline | Coming soon |
-| 05 | Databricks | Big data, Spark vs PySpark vs Databricks, reading a CSV, creating a table, and Genie | Coming soon |
+| 04 | ADF Pipelines | Parameters, queries, Parquet, dynamic folders, and copying many tables with one pipeline | [Study guide](session-04-adf-pipelines/study-guide.md) · [Slides](session-04-adf-pipelines/slides.md) |
+| 05 | Databricks | Big data, types of data, Spark vs PySpark vs Databricks, creating a Databricks account, reading a CSV, creating a table, and Genie | Coming soon |
 | 06 | Resume and How to Crack a Data Engineer Interview | Resume, portfolio, interview questions, design and behavioural answers | Coming soon |
 | 07 | What Next? | DP-750 certification, job readiness and next steps | Coming soon |
 
